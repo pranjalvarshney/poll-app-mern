@@ -1,4 +1,4 @@
-# Live Poll App Mern
+# Live Poll App
 - Build using MERN stack
 - Steps to run:
   - Clone the repo
