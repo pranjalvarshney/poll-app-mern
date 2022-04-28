@@ -9,7 +9,12 @@ export const Header = () => {
     <Box sx={{ flexGrow: 1 }}>
       <AppBar position="static">
         <Toolbar>
-          <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
+          <Typography
+            variant="h6"
+            onClick={() => navigate("/")}
+            component="div"
+            sx={{ flexGrow: 1, cursor: "pointer" }}
+          >
             Poll APP
           </Typography>
           <Button color="inherit" onClick={() => navigate("/create")}>
